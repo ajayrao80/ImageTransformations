@@ -31,7 +31,7 @@ def powertrans(c, gamma, r):
 
 
 # Driver code
-img = cv2.imread("sample.png")
+img = cv2.imread("sample.jpg")
 
 height, width, channels = img.shape
 max_pixel_value = max_pixel(img)
